@@ -1,3 +1,4 @@
+[password_generator.py](https://github.com/user-attachments/files/23508902/password_generator.py)
 # Secure-Password-Generator-Python-
 
 This project is a simple but powerful tool I built to help people create strong, random passwords without the hassle. Instead of relying on guesswork or insecure generators, it uses Python’s `secrets` module to make sure every password is truly unpredictable and safe.  
@@ -22,6 +23,17 @@ I built this project to practice writing clean, user‑friendly code while keepi
 1. Clone this repository:
    ```bash
    git clone https://github.com/Mzi06/password-generator.git
+2. Navigate into the project folder:
+    ```bash
+    cd password-generator
+3. Make sure you have Python 3 installed, then run:
+   ```bash
+   python password_generator.py
+4. Follow the prompts:
+   - Enter the desired password length (minimum 4).
+   - Choose whether to include uppercase letters, digits, and symbols.
+   - A secure password will be generated instantly.
+   - You can generate more passwords until you choose to exit.
 
 ---
 
