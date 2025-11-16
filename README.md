@@ -58,6 +58,11 @@ This shows how the program asks for your preferences before generating a passwor
 <img width="982" height="264" alt="Entrophy" src="https://github.com/user-attachments/assets/f5d78438-5c7c-4bc5-83ad-02a857555a78" />
 Here you can see the generated password, its entropy calculation, and the strength rating.
 
+**Blacklist Check In Action**
+<img width="995" height="143" alt="Blacklist" src="https://github.com/user-attachments/assets/f6110116-6398-42a4-85bb-816d1c92e5c3" />
+If a weak or common password is generated, the blacklist check catches it and regenerates a stronger one.
+
+---
 
 ## Where This Project Could Go Next
 
@@ -65,8 +70,7 @@ This password generator is just the beginning. Here are some ideas I’d love to
 
 - **A simple desktop app**: Wrap the script in a friendly interface so anyone can click a button and get a password.  
 - **Web deployment**: Turn it into a small web app using Flask or Django, hosted on AWS, so people can generate passwords from anywhere.  
-- **Clipboard integration**: Add a feature that copies the password directly to your clipboard, saving time.  
-- **Password strength meter**: Show users how strong their generated password is, with visual feedback.  
+- **Clipboard integration**: Add a feature that copies the password directly to your clipboard, saving time.    
 - **Customization options**: Let users exclude certain symbols or characters if they want passwords that are easier to type.  
 - **Mobile version**: Package it as a lightweight app for Android/iOS, so secure passwords are always in your pocket.  
 
