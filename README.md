@@ -28,7 +28,7 @@ I built this project to practice writing clean, user‑friendly code while keepi
     cd password-generator
 3. Make sure you have Python 3 installed, then run:
    ```bash
-   python password_generator.py
+   python password_generator_version1.2.py
 4. Follow the prompts:
    - Enter the desired password length (minimum 4).
    - Choose whether to include uppercase letters, digits, and symbols.
@@ -54,9 +54,11 @@ Goodbye!
 <img width="1009" height="117" alt="preferences" src="https://github.com/user-attachments/assets/59f82e7c-3c1d-48cc-a919-285f7891f3b4" />
 This shows how the program asks for your preferences before generating a password.
 
+
 **Generated Password with Entropy & Strength**
 <img width="982" height="264" alt="Entrophy" src="https://github.com/user-attachments/assets/f5d78438-5c7c-4bc5-83ad-02a857555a78" />
 Here you can see the generated password, its entropy calculation, and the strength rating.
+
 
 **Blacklist Check In Action**
 <img width="995" height="143" alt="Blacklist" src="https://github.com/user-attachments/assets/f6110116-6398-42a4-85bb-816d1c92e5c3" />
