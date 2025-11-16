@@ -1,4 +1,4 @@
-[password_generator.py](https://github.com/user-attachments/files/23508902/password_generator.py)
+
 # Secure-Password-Generator-Python-
 
 This project is a simple but powerful tool I built to help people create strong, random passwords without the hassle. Instead of relying on guesswork or insecure generators, it uses Python’s `secrets` module to make sure every password is truly unpredictable and safe.  
@@ -48,6 +48,16 @@ Generate another password? (y/n): n
 Goodbye!
 
 ---
+## Screenshots
+
+**Interactive Prompt**
+<img width="1009" height="117" alt="preferences" src="https://github.com/user-attachments/assets/59f82e7c-3c1d-48cc-a919-285f7891f3b4" />
+This shows how the program asks for your preferences before generating a password.
+
+**Generated Password with Entropy & Strength**
+<img width="982" height="264" alt="Entrophy" src="https://github.com/user-attachments/assets/f5d78438-5c7c-4bc5-83ad-02a857555a78" />
+Here you can see the generated password, its entropy calculation, and the strength rating.
+
 
 ## Where This Project Could Go Next
 
